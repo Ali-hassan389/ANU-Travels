@@ -1,0 +1,316 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    border: 1px solid black;
+    background-color: white;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.logo{
+    width: 50px;
+    margin-right: 50px;
+}
+
+.navbox{
+    display: flex;
+    align-items: center;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    margin: 0 15px;
+    padding: 0 10px; 
+}
+
+.activelink{
+     text-decoration: none;
+      font-size: 23px;
+    background-color: black;
+    color: white;
+    line-height: 50px;
+    border: 1px solid black;
+}
+
+.naviconsbox{
+    display: flex;
+    gap: 20px;
+}
+
+.icon{
+    width: 30px;
+    border: 1px solid black;
+}
+
+.mainhead{
+    position: relative;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+    margin-bottom: 20px;
+
+    background-image: 
+        url('https://images.pexels.com/photos/326235/pexels-photo-326235.jpeg?cs=srgb&dl=pexels-pixabay-326235.jpg&fm=jpg'),
+        url('https://images.pexels.com/photos/994605/pexels-photo-994605.jpeg?cs=srgb&dl=pexels-fabianwiktor-994605.jpg&fm=jpg'),
+        url('https://idsb.tmgrup.com.tr/ly/uploads/images/2022/07/12/217928.jpg');
+    background-size: 33.333% 100%, 33.333% 100%, 33.333% 100%;
+    background-position: 0% 0%, 50% 0%, 100% 0%;  
+    background-repeat: no-repeat;
+}
+
+.content h1{
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+.content p{
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.7);
+}
+
+.booking{
+    padding: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.row{
+    background-color: beige;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.BigSection{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.title{
+    margin-bottom: 20px;
+    color: #355c5c;
+    border-bottom: 2px solid #355c5c;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+
+.formside{
+    flex: 1;
+    min-width: 300px;
+    max-width: 450px;
+}
+
+.bform {
+    padding: 20px;
+ 
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.group { margin-bottom: 15px; }
+
+.group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.group input, .group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.booking-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.booking-button:hover {
+    background-color: #0056b3;
+}
+
+
+.spotsside{
+    flex: 2;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.items{
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end; 
+    justify-content: center;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 3px black;
+    padding-bottom: 10px;
+    transition: transform 0.2s;
+}
+
+.items:hover {
+    transform: scale(1.02);
+}
+
+.item p {
+    background-color: rgba(0,0,0,0.5); 
+    width: 100%;
+    padding: 5px;
+    margin: 0;
+}
+
+
+.machu { background-image: url('https://i.natgeofe.com/n/07908662-922d-4ea4-806c-8d72e977d655/6960423.jpg'); }
+.paris { background-image: url('https://images4.alphacoders.com/677/thumb-1920-677766.jpg'); }
+.great-wall { background-image: url('https://wallpaperaccess.com/full/33929.jpg'); }
+.taj { background-image: url('https://static.toiimg.com/photo/63282406.cms'); }
+.spain { background-image: url('https://barcelonayellow.com/images/stories/Sagrada_Familia/sagrada_familia_2023_900x506px.jpg'); }
+.hunza { background-image: url('https://media.istockphoto.com/id/528152271/photo/beautiful-landscape-of-hunza-valley-in-autumn-season.jpg?s=612x612&w=0&k=20&c=qLEQ-6ToK3TZ0ybLgg_4bHumzioC5dGxZ9PZPAkQsRA='); }
+.rome { background-image: url('https://wallpaperaccess.com/full/3646746.jpg'); }
+.turkey { background-image: url('https://images7.alphacoders.com/525/525893.jpg'); }
+.bali { background-image: url('https://wallpaperaccess.com/full/359978.jpg'); }
+.pisa{ background-image: url('https://images3.alphacoders.com/708/thumb-1920-708985.jpg');}
+.egypt{background-image: url('https://images5.alphacoders.com/458/thumb-1920-458484.jpg');}
+.barcelona{background-image: url('https://leosystem.travel/wp-content/uploads/2020/04/1667744803.jpg');}
+
+
+
+.testimonials{
+    padding: 60px 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.testimonialbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.testimonialcard {
+    background-color: white;
+    border-radius: 12px;
+    padding: 30px;
+    width: 300px;
+    text-align: left;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.clientinfo {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.clientavatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+
+}
+
+
+footer {
+    background-color: #355c5c;
+    color: white;
+    padding: 40px 20px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+}
+
+.footer-section h4 {
+    color: #b5aeae;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+
+.footer-links a { color: white; text-decoration: none; }
+
+
+
+    
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 15px;
+    }
+    .navbox {
+        flex-direction: column;
+        width: 100%;
+    }
+    .link{
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        margin: 5px 0;
+        border-bottom: 1px solid #eee;
+    }
+    
+    .booking{ flex-direction: column; }
+    .formside, .spotsside { width: 100%; max-width: none; }
+    
+    .grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
+    
+    .footer-container { flex-direction: column; }
+}
